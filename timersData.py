@@ -3,7 +3,6 @@
 """
 Created on Tue Jan 31 17:26:35 2023
 
-@author: reha.tuncer
 """
 
 import pandas as pd
@@ -190,10 +189,6 @@ plt.hist(df.loc[df.AGE == 2, 'BENSUM'], **kwargs, color='b', label='age 25-34')
 plt.hist(df.loc[df.AGE == 3, 'BENSUM'], **kwargs, color='r', label='age 35-44')
 plt.gca().set(xlabel='BENSUM')
 plt.legend()
-
-
-
-
 
 # code to create EXCEL sheet: new_data_timers.xlsx
 
